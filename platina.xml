@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="Lunarixus"
+            fetch="https://github.com"
+            revision="master" />
+	
+    <!--Device Trees-->
+    <project path="device/xiaomi/platina" name="Lunarixus/android_device_xiaomi_platina" remote="Lunarixus" />
+
+
+    <!--Kernel-->
+    <project path="kernel/xiaomi/platina" name="Lunarixus/android_kernel_xiaomi_platina" remote="Lunarixus" />
+
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/xiaomi/platina" name="Lunarixus/android_vendor_xiaomi_platina" remote="Lunarixus" />
+	
+</manifest>
