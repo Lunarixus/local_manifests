@@ -5,16 +5,17 @@
     <remote name="Lunarixus"
             fetch="https://github.com"
             revision="master" />
-    <remote name="nysadev"
-            fetch="https://github.com"
             revision="master" />	
     <!--Device Trees-->
     <project path="device/xiaomi/platina" name="Lunarixus/android_device_xiaomi_platina" remote="Lunarixus" />
 
+
     <!--Kernel-->
-    <project path="kernel/xiaomi/platina" name="nysadev/android_kernel_xiaomi_clover" remote="nysadev" revision="lineage-16.0" />
+    <project path="kernel/xiaomi/platina" name="Lunarixus/android_kernel_xiaomi_platina" remote="Lunarixus" />
+
+
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/platina" name="Lunarixus/android_vendor_xiaomi_platina" remote="Lunarixus" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="Lunarixus" revision="lineage-16.0"/>	
+	
 </manifest>
