@@ -9,10 +9,10 @@
             fetch="https://github.com"
             revision="master" />	
     <!--Device Trees-->
-    <project path="device/xiaomi/platina" name="Lunarixus/android_device_xiaomi_platina" remote="Lunarixus" />
+    <project path="device/xiaomi/platina" name="Lunarixus/android_device_xiaomi_platina" remote="Lunarixus" revision="semistable" />
 
     <!--Kernel-->
-    <project path="kernel/xiaomi/platina" name="Lunarixus/android_kernel_xiaomi_platina" remote="Lunarixus" revision="semistable" />
+    <project path="kernel/xiaomi/platina" name="Lunarixus/android_kernel_xiaomi_platina" remote="Lunarixus" />
 
     <!-- Vendor folders -->
     <project path="vendor/xiaomi/platina" name="Lunarixus/android_vendor_xiaomi_platina" remote="Lunarixus" />
